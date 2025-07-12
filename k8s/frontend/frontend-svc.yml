@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: wanderlust-frontend
+  type: NodePort
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 5173
-  type: ClusterIP
+    - port: 80
+      targetPort: 80
+      nodePort: 30080 
