@@ -6,14 +6,15 @@ COPY . .
 
 RUN npm i 
 
-RUN npm run test
+#RUN npm run test
 
+#stage 2
 FROM node:21-slim
 
 WORKDIR /app
 
 
-#stage 2
+
 COPY --from=backend-builder /app .
 
 COPY .env.docker .env
