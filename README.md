@@ -1,4 +1,4 @@
-# 🚀 End-to-End DevOps Project: Deploying a 3-Tier MERN Stack App on Kind with CI/CD, GitOps & Monitoring
+# Deploying a 3-Tier MERN Stack App on Kind with CI/CD, GitOps & Monitoring
 
 This project demonstrates how to deploy a complete **3-tier MERN stack application** on a **local Kubernetes cluster using Kind**, powered by a fully automated **CI/CD pipeline**, **GitOps with ArgoCD**, and **observability using Prometheus and Grafana**.
 
