@@ -17,7 +17,6 @@ Here’s a short visual overview of the automated deployment process:
 
 ## 🧰 Tech Stack Used
 
-- **Application Stack**: MERN (MongoDB, Express, React, Node.js)
 - **Containerization**: Docker
 - **Kubernetes**: Kind (Kubernetes in Docker)
 - **CI/CD**: Jenkins (CI and CD Pipelines)
