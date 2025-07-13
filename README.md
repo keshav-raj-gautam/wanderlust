@@ -52,7 +52,7 @@ ArgoCD continuously monitors the GitHub repository containing the Kubernetes man
 
 - On every manifest update, ArgoCD syncs the app state with the **Kind cluster**.
 - The new version of the app is automatically deployed—no manual steps required.
-
+![Argo Applications](./assets/argo-applications.png)
 ---
 
 ## 📈 Monitoring with Prometheus & Grafana
