@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: keshav0503/wanderlust-backend:27
+        image: keshav0503/wanderlust-backend:1.28
         ports:
         - containerPort: 3000

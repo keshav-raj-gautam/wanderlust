@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: keshav0503/wanderlust-frontend:27
+        image: keshav0503/wanderlust-frontend:1.28
         ports:
         - containerPort: 5173
         env:
